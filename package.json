@@ -1,0 +1,24 @@
+{
+  "name": "interviewer-api",
+  "version": "1.0.0",
+  "description": "Interviewer Api",
+  "author": "Zeno Foltin",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zfoltin/interviewer.git"
+  },
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "engines": {
+    "node": "6.9.x"
+  }
+}
