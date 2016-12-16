@@ -16,7 +16,7 @@ There is a public API available at [https://interviewer-api.herokuapp.com/](http
 
 The API has 4 endpoints:
 
-- `/login` gives you a `token` which you need to use in subsequent calls to the API in the `Authorization` header. Every call returns a new token.
+- `/login` gives you a `token` which you need to use in subsequent calls to the API in the `Authorization` header. Every call returns a new token with some initial transactions and balance.
 - `/balance` gives you your current balance along with a currency code.
 - `/transactions` gives you a list of items with details such as `date`, `description`, `amount`, `currency`.
 - `/spend` adds a transaction to your list and updates your balance. Send in `date`, `description`, `amount`, `currency` in a `POST` request.
