@@ -16,7 +16,7 @@
 	"requests": [
 		{
 			"id": "1a90d277-8604-0fe6-e7de-2b756c587d9b",
-			"headers": "Accept: application/json\n",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
 			"url": "{{protocol}}://{{host}}/login",
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -26,7 +26,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1481803289156,
+			"time": 1481890380574,
 			"name": "Login",
 			"description": "",
 			"collectionId": "2f6b72b8-0862-f703-5fe8-09f315dedbc0",
