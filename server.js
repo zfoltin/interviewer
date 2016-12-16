@@ -58,7 +58,7 @@ app.get('/', (req, res) => {
   res.send('Interviewer says hello! 👋');
 });
 
-app.get('/login', (req, res) => {
+app.post('/login', (req, res) => {
   let token = Math.random().toString(36).replace(/[^a-z]+/g, '');
   accounts[token] = {
     balance: initialBalance,
