@@ -40,7 +40,6 @@ The task is to create an application that
 
 If you are a
 
-- Back-end developer - use Java to replicate the API's functionality
 - Front-end developer - use Angular 2
 - Native mobile developer - use the native platform
 - Hybrid mobile developer - use Ionic 2
