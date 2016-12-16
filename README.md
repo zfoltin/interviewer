@@ -21,7 +21,7 @@ The API has 4 endpoints:
 - `/transactions` gives you a list of items with details such as `date`, `description`, `amount`, `currency`.
 - `/spend` adds a transaction to your list and updates your balance. Send in `date`, `description`, `amount`, `currency` in a `POST` request.
 
-There is a *Postman* collection at [Interviewer.postman_collection.json](https://github.com/zfoltin/interviewer/Interviewer.postman_collection.json) that you can use to test the API. Use these environment variables:
+There is a *Postman* collection at [Interviewer.postman_collection.json](https://github.com/zfoltin/interviewer/blob/master/Interviewer.postman_collection.json) that you can use to test the API. Use these environment variables:
 
 - `protocol`: `https`
 - `host`: `interviewer-api.herokuapp.com`
