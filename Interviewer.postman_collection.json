@@ -20,7 +20,7 @@
 			"url": "{{protocol}}://{{host}}/login",
 			"preRequestScript": null,
 			"pathVariables": {},
-			"method": "GET",
+			"method": "POST",
 			"data": [],
 			"dataMode": "raw",
 			"tests": null,
