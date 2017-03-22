@@ -62,7 +62,7 @@ app.post('/login', (req, res) => {
   let token = Math.random().toString(36).replace(/[^a-z]+/g, '');
   accounts[token] = {
     balance: initialBalance,
-    transactions: initialTransactions
+    transactions: JSON.parse(JSON.stringify(initialTransactions))
   };
   res.status(200).json({
     'token': token
