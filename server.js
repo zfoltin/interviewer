@@ -47,7 +47,7 @@ app.use((req, res, next) => {
   } else if (headerError) {
     res.status(406).send();
   } else {
-   next();
+    next();
   }
 });
 
