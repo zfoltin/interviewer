@@ -1,5 +1,5 @@
-#Interviewer - Much Better Than The Rest
-----------------------------------------
+# Interviewer - Much Better Than The Rest
+-----------------------------------------
 
 Thank you for taking the time to do this technical test. There are two parts to it:
 
@@ -66,4 +66,4 @@ Please answer the following questions in a markdown file called `answers tO ques
 7. Please describe yourself in JSON format.
 8. What is the meaning of life?
 
-####Thanks for your time, hope to hear from you soon!
+#### Thanks for your time, hope to hear from you soon!
